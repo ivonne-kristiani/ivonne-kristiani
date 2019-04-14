@@ -2360,7 +2360,7 @@ h4.package {
 
 @media (max-width:800px) and (orientation:landscape) {
     .home {
-        background: url(../images/bg.jpg) #333 30% 30%;
+        background: url(../images/bg1.jpg) #333 30% 30%;
         overflow-y: scroll;
     }
     .name-block,
