@@ -133,6 +133,13 @@
 	    $('.menu-item').removeClass('active');
 	    $('.menu-item.blog').addClass('active');
 	});
+  	//On Click Open New Block
+	$('.new-block, .menu-item.new').on('click', function() {
+	    $('.content-blocks').removeClass('showx');
+	    $('.content-blocks.new').addClass('showx');
+	    $('.menu-item').removeClass('active');
+	    $('.menu-item.new').addClass('active');
+	});
 	//On Click Open Contact Block
 	$('.contact-block, .menu-item.contact').on('click', function() {
 	    $('.content-blocks').removeClass('showx');
